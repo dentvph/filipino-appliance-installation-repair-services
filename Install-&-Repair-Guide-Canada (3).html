@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Professional Filipino appliance installation and repair services in the Greater Toronto Area. Expert technicians, same-day service, and competitive rates.">
+<meta name="keywords" content="Filipino appliance repair, appliance installation Toronto, GTA appliance service, Filipino technician, home appliance repair">
+<meta property="og:title" content="Filipino Appliance Installation & Repair Services">
+<meta property="og:description" content="Professional Filipino appliance installation and repair services in the Greater Toronto Area. Expert technicians, same-day service, and competitive rates.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://filipinoapplianceandrepair.ca">
+<link rel="canonical" href="https://filipinoapplianceandrepair.ca">
+<title>Filipino Appliance Installation & Repair Services | GTA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#1B5E20',secondary:'#B8860B'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+@keyframes float-appliance {
+0%, 100% { transform: translateY(0); }
+50% { transform: translateY(-15px); }
+}
+.appliance-animation {
+animation: float-appliance 3s ease-in-out infinite;
+}
+.delay-100 {
+animation-delay: 0.5s;
+}
+.delay-200 {
+animation-delay: 1s;
+}
+.floating-appliances {
+z-index: 1;
+}
+@keyframes slideUp {
+from {
+opacity: 0;
+transform: translateY(100%);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+@keyframes float {
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-20px);
+}
+}
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+@keyframes scaleIn {
+from {
+opacity: 0;
+transform: scale(0.9);
+}
+to {
+opacity: 1;
+transform: scale(1);
+}
+}
+@keyframes slideInRight {
+from {
+opacity: 0;
+transform: translateX(30px);
+}
+to {
+opacity: 1;
+transform: translateX(0);
+}
+}
+.technician-animation {
+animation: float 3s ease-in-out infinite;
+}
+.fade-in-up {
+opacity: 0;
+animation: fadeInUp 0.6s ease-out forwards;
+}
+.scale-in {
+opacity: 0;
+animation: scaleIn 0.5s ease-out forwards;
+}
+.slide-in-right {
+opacity: 0;
+animation: slideInRight 0.5s ease-out forwards;
+}
+.service-card {
+opacity: 0;
+transform: translateY(20px);
+transition: all 0.5s ease-out;
+}
+.service-card.visible {
+opacity: 1;
+transform: translateY(0);
+}
+.stagger-animation > * {
+opacity: 0;
+}
+.hero-section {
+background-image: url('https://readdy.ai/api/search-image?query=Professional%20technicians%20working%20on%20appliance%20repair%20with%20tools%2C%20showing%20diverse%20team%20with%20Filipino%20and%20Canadian%20workers%2C%20modern%20home%20setting%2C%20bright%20lighting%2C%20clean%20workspace%2C%20tools%20organized%20neatly%2C%20focused%20on%20repair%20work%2C%20showing%20expertise%20and%20professionalism%2C%20partial%20view%20of%20home%20appliances&width=1920&height=1080&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.hero-overlay {
+background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 50%, rgba(255,255,255,0.5) 80%, rgba(255,255,255,0) 100%);
+}
+input:focus, select:focus, textarea:focus {
+outline: none;
+border-color: #3b82f6;
+}
+.service-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.testimonial-card {
+transition: all 0.3s ease;
+}
+.difficulty-beginner { background-color: #dbeafe; }
+.difficulty-intermediate { background-color: #bfdbfe; }
+.difficulty-advanced { background-color: #93c5fd; }
+</style>
+</head>
+<body class="font-sans text-gray-800">
+<!-- Header & Navigation -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="container mx-auto px-4 py-3">
+<div class="flex justify-between items-center">
+<div class="flex items-center">
+<a href="https://filipinoapplianceandrepair.ca" class="flex items-center hover:opacity-80 transition-opacity">
+<img src="https://static.readdy.ai/image/6dad75bb84c6b196f766bf53c2682b9d/02fc441fb48373ab3c0857966bef10be.png" alt="FAIR Logo" class="h-16 object-contain">
+</a>
+<nav class="hidden md:flex ml-10">
+<a href="#" class="px-4 py-2 font-medium text-gray-900 hover:text-primary">Home</a>
+<a href="/install" class="px-4 py-2 font-medium text-gray-900 hover:text-primary">Installation</a>
+<a href="/repair" class="px-4 py-2 font-medium text-gray-900 hover:text-primary">Repair</a>
+<a href="/diy-guides" class="px-4 py-2 font-medium text-gray-900 hover:text-primary">DIY Guides</a>
+<a href="#contact" class="px-4 py-2 font-medium text-gray-900 hover:text-primary">Contact Us</a>
+<a href="#" class="px-4 py-2 font-medium text-primary">Emergency Service</a>
+</nav>
+</div>
+<div class="flex items-center">
+<div class="mr-6 hidden md:flex items-center">
+<div class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-100 mr-2">
+<i class="ri-phone-fill text-primary"></i>
+</div>
+<span class="text-sm font-medium">Call: <a href="tel:+16475683877" class="text-primary">+1 (647) 568-3877</a></span>
+</div>
+<div class="hidden md:flex items-center mr-4">
+<button class="flex items-center text-sm font-medium">
+<span>EN</span>
+<i class="ri-arrow-down-s-line ml-1"></i>
+</button>
+</div>
+<button class="bg-primary text-white px-4 py-2 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+<i class="ri-phone-line mr-1"></i> Call Now
+</button>
+<button class="ml-4 md:hidden w-10 h-10 flex items-center justify-center">
+<i class="ri-menu-line text-xl"></i>
+</button>
+</div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="hero-section relative min-h-[600px] flex items-center overflow-hidden">
+<div class="hero-overlay absolute inset-0"></div>
+<div class="technician-animation absolute right-0 bottom-0 w-96 h-96 opacity-0 transform translate-y-full" style="animation: slideUp 1s ease-out forwards 0.5s;">
+<img src="https://readdy.ai/api/search-image?query=professional%20appliance%20repair%20technician%20in%20uniform%20with%20tools%2C%20full%20body%20view%2C%20transparent%20background%2C%20modern%20style%2C%20digital%20art%20illustration&width=400&height=400&seq=31&orientation=squarish" alt="Technician" class="w-full h-full object-contain">
+</div>
+<div class="container mx-auto px-4 py-16 relative z-10 w-full">
+<div class="max-w-2xl">
+<h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Filipino Appliance Install and Repair Service</h1>
+<p class="text-xl text-gray-700 mb-8">Professional appliance installation and repair services by Wilmer. Bringing Filipino craftsmanship and dedication to every repair job. Fast, reliable, and affordable solutions for all your appliance needs.</p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white px-6 py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+<i class="ri-calendar-check-line mr-2"></i> Book a Service
+</button>
+<button class="bg-white border-2 border-primary text-primary px-6 py-3 rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap">
+<i class="ri-tools-line mr-2"></i> View DIY Guides
+</button>
+</div>
+<div class="mt-8 flex items-center">
+<div class="flex -space-x-2">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20Filipino%20male%20technician%20in%20uniform%2C%20smiling%2C%20confident%2C%20well-groomed%2C%20professional%20lighting%2C%20studio%20background&width=100&height=100&seq=2&orientation=squarish" alt="Technician" class="w-10 h-10 rounded-full border-2 border-white object-cover object-top">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20Filipino%20female%20technician%20in%20uniform%2C%20smiling%2C%20confident%2C%20well-groomed%2C%20professional%20lighting%2C%20studio%20background&width=100&height=100&seq=3&orientation=squarish" alt="Technician" class="w-10 h-10 rounded-full border-2 border-white object-cover object-top">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20Canadian%20male%20technician%20in%20uniform%2C%20smiling%2C%20confident%2C%20well-groomed%2C%20professional%20lighting%2C%20studio%20background&width=100&height=100&seq=4&orientation=squarish" alt="Technician" class="w-10 h-10 rounded-full border-2 border-white object-cover object-top">
+</div>
+<div class="ml-4">
+<p class="text-sm font-medium">Trusted by <span class="text-primary">1,000+</span> customers across Canada</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Overview -->
+<section id="services" class="bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<div class="floating-appliances absolute left-0 right-0 -top-20 flex justify-around pointer-events-none opacity-25">
+<div class="appliance-animation">
+<i class="ri-washing-machine-line text-6xl text-primary"></i>
+</div>
+<div class="appliance-animation delay-100">
+<i class="ri-fridge-line text-6xl text-primary"></i>
+</div>
+<div class="appliance-animation delay-200">
+<i class="ri-computer-line text-6xl text-primary"></i>
+</div>
+</div>
+<h2 class="text-3xl font-bold mb-4">Filipino Appliance Install and Repair Service</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Professional installation and repair services for all your home appliances. Trust Wilmer's expertise for reliable solutions and quality workmanship.</p>
+</div>
+<div class="mb-12">
+<h3 class="text-2xl font-bold mb-6">Repair Services</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
+<!-- Washing Machine -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-washing-machine-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Washing Machine</h3>
+<p class="text-gray-600 mb-4">Professional repair service for all washing machine brands. We fix common issues like leaks, noise, and spin problems.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Clothes Dryer -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-t-shirt-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Clothes Dryer</h3>
+<p class="text-gray-600 mb-4">Expert dryer repair for all major brands. We fix heating issues, noisy operation, and long drying times.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Electric Stove and Oven -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-fire-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Electric Stove & Oven</h3>
+<p class="text-gray-600 mb-4">Comprehensive repair for electric stoves and ovens. We fix heating elements, controls, and temperature issues.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Dishwasher -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-cup-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Dishwasher</h3>
+<p class="text-gray-600 mb-4">Professional dishwasher repair service. We fix drainage issues, cleaning problems, and water leaks.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Refrigerator -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-fridge-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Refrigerator</h3>
+<p class="text-gray-600 mb-4">Expert refrigerator repair for all brands. We fix cooling issues, ice makers, and temperature control problems.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Microwave Oven -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-timer-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Microwave Oven</h3>
+<p class="text-gray-600 mb-4">Fast and reliable microwave repair. We fix heating issues, turntable problems, and door malfunctions.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Service <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+</div>
+</div>
+<!-- Installation Services -->
+<div>
+<h3 class="text-2xl font-bold mb-6">Installation Services</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
+<!-- Range Hood -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-ventilation-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Range Hood</h3>
+<p class="text-gray-600 mb-4">Professional range hood installation with proper ventilation setup and electrical connection.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Installation <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Over the Range Microwave -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-timer-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Over the Range Microwave</h3>
+<p class="text-gray-600 mb-4">Expert installation of over-the-range microwaves with secure mounting and ventilation setup.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Installation <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Toilet Bath Fan -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-wind-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Toilet Bath Fan</h3>
+<p class="text-gray-600 mb-4">Professional bathroom exhaust fan installation with proper ventilation and electrical setup.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Schedule Installation <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+</div>
+</div>
+<!-- Dryer -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-t-shirt-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Dryer</h3>
+<p class="text-gray-600 mb-4">Professional dryer repair services. We fix heating issues, strange noises, and ensure optimal performance.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Contact Now <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Refrigerator -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-fridge-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Refrigerator</h3>
+<p class="text-gray-600 mb-4">Comprehensive refrigerator repair services. From cooling problems to ice maker repairs, we keep your food fresh.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Contact Now <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Stove -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-fire-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Stove</h3>
+<p class="text-gray-600 mb-4">Expert stove and oven repair services. We fix heating elements, controls, and ensure safe operation.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Contact Now <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Microwave Oven -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-timer-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Microwave Oven</h3>
+<p class="text-gray-600 mb-4">Fast and reliable microwave repair services. We fix heating issues, turntable problems, and door malfunctions.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Contact Now <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+<!-- Dishwasher -->
+<div class="service-card bg-white rounded-lg shadow-md p-6 transition duration-300 transform hover:scale-105">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-cup-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Dishwasher</h3>
+<p class="text-gray-600 mb-4">Professional dishwasher repair and installation. We fix drainage issues, cleaning problems, and water leaks.</p>
+<a href="#" class="text-primary font-medium flex items-center hover:underline">
+Contact Now <i class="ri-arrow-right-line ml-1"></i>
+</a>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="bg-white border-2 border-primary text-primary px-6 py-3 rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap">
+View All Services
+</button>
+</div>
+</div>
+</section>
+<!-- DIY Guide Section -->
+<section id="diy-guides" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold mb-4">Appliance Care & Maintenance Guides</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Simple maintenance tips and basic troubleshooting steps to help keep your appliances running efficiently. Learn when it's safe to DIY and when to call a professional.</p>
+<div class="mt-6 flex justify-center gap-4">
+<button class="bg-primary text-white px-6 py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+<i class="ri-book-2-line mr-2"></i> Browse All Guides
+</button>
+<button class="bg-white border-2 border-primary text-primary px-6 py-3 rounded-button font-medium hover:bg-gray-50 transition whitespace-nowrap">
+<i class="ri-filter-3-line mr-2"></i> Filter by Appliance
+</button>
+</div>
+</div>
+<div class="flex items-center justify-center mt-4 text-red-600">
+<i class="ri-alert-line mr-2"></i>
+<span class="text-sm font-medium">Warning: These guides are for educational purposes only. DO NOT attempt these repairs yourself.</span>
+</div>
+<div class="mt-4 text-sm text-gray-500">Professional certification and specialized tools required for all advanced repairs</div>
+</div>
+<!-- Search Bar -->
+<div class="max-w-2xl mx-auto mb-12">
+<div class="relative">
+<input type="text" placeholder="Search for DIY guides (e.g., leaky faucet, clogged drain)" class="w-full px-5 py-4 pr-12 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-primary/20">
+<div class="absolute right-4 top-1/2 transform -translate-y-1/2 w-6 h-6 flex items-center justify-center">
+<i class="ri-search-line text-gray-400"></i>
+</div>
+</div>
+</div>
+<!-- Popular DIY Guides -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-animation">
+<!-- Washer Maintenance -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=modern%20washing%20machine%20with%20open%20door%2C%20clean%20laundry%20room%20setting%2C%20maintenance%20guide%20visual%2C%20bright%20lighting%2C%20professional%20photography%20style&width=600&height=400&seq=101&orientation=landscape" alt="Washer Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Washer Care</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Washer Maintenance Tips</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean the door seal monthly</li>
+<li>Remove lint from filter</li>
+<li>Leave door open after use</li>
+<li>Check hoses for leaks</li>
+<li>Use proper detergent amount</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">10 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">No tools needed</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<!-- Dryer Care -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=clean%20dryer%20vent%20and%20lint%20trap%20maintenance%2C%20modern%20laundry%20room%20setting%2C%20maintenance%20guide%20visual%2C%20bright%20lighting%2C%20professional%20photography&width=600&height=400&seq=102&orientation=landscape" alt="Dryer Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dryer Care</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dryer Safety & Care</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean lint trap after each use</li>
+<li>Check vent hose monthly</li>
+<li>Clean exterior surfaces</li>
+<li>Inspect door seal</li>
+<li>Monitor drying time</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">5 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Vacuum cleaner</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<!-- Refrigerator Care -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=clean%20organized%20refrigerator%20interior%2C%20temperature%20control%20panel%2C%20maintenance%20guide%20visual%2C%20bright%20lighting%2C%20professional%20photography&width=600&height=400&seq=103&orientation=landscape" alt="Refrigerator Care" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Fridge Care</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Refrigerator Maintenance</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Check temperature settings</li>
+<li>Clean door seals</li>
+<li>Organize for airflow</li>
+<li>Clean water dispenser</li>
+<li>Replace water filter</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">15 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Cleaning supplies</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<!-- Dishwasher Care -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=clean%20dishwasher%20interior%2C%20spray%20arms%20and%20filter%20maintenance%2C%20modern%20kitchen%20setting%2C%20maintenance%20guide%20visual%2C%20bright%20lighting&width=600&height=400&seq=104&orientation=landscape" alt="Dishwasher Care" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dishwasher</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dishwasher Maintenance</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean filters monthly</li>
+<li>Check spray arms</li>
+<li>Remove food debris</li>
+<li>Clean door seals</li>
+<li>Run empty hot cycle</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">20 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic cleaning</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<!-- Stove Care -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=clean%20electric%20stove%20top%2C%20maintenance%20of%20burners%20and%20controls%2C%20modern%20kitchen%20setting%2C%20maintenance%20guide%20visual%2C%20bright%20lighting&width=600&height=400&seq=105&orientation=landscape" alt="Stove Care" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Stove Care</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Stove & Oven Care</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean spills promptly</li>
+<li>Check burner function</li>
+<li>Clean oven regularly</li>
+<li>Test temperature</li>
+<li>Clean control panel</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">30 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Cleaning supplies</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<!-- Microwave Care -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=clean%20microwave%20interior%20and%20exterior%2C%20maintenance%20of%20turntable%20and%20controls%2C%20modern%20kitchen%20setting%2C%20maintenance%20guide%20visual%2C%20bright%20lighting&width=600&height=400&seq=106&orientation=landscape" alt="Microwave Care" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Microwave</span>
+<span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs font-medium">Basic</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Microwave Maintenance</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean interior daily</li>
+<li>Check door seal</li>
+<li>Clean turntable</li>
+<li>Wipe control panel</li>
+<li>Test door latch</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">10 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic cleaning</span>
+</div>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</div>
+</div>
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20repairing%20washing%20machine%2C%20tools%20laid%20out%20neatly%2C%20modern%20laundry%20room%20setting%2C%20detailed%20view%20of%20repair%20work%2C%20clean%20and%20professional%20environment&width=600&height=400&seq=11&orientation=landscape" alt="Washing Machine Repair" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Washing Machine</span>
+<span class="px-3 py-1 difficulty-intermediate rounded-full text-xs font-medium">Intermediate</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Advanced Washing Machine Repair</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Motor control board diagnostics and replacement</li>
+<li>Drum bearing assembly overhaul</li>
+<li>Transmission system repair</li>
+<li>Electronic control panel programming</li>
+<li>High-voltage component safety procedures</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">20-30 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic tools</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Dryer Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20cleaning%20dryer%20vent%20and%20inspecting%20dryer%20components%2C%20modern%20laundry%20room%20setting%2C%20detailed%20maintenance%20work%2C%20clean%20workspace&width=600&height=400&seq=21&orientation=landscape" alt="Dryer Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dryer</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Complex Dryer System Repair</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Heating element resistance testing and replacement</li>
+<li>Thermal fuse and thermostat calibration</li>
+<li>Drive motor and belt system overhaul</li>
+<li>Gas valve solenoid diagnostics</li>
+<li>Electrical system safety protocols</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">15-20 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Vacuum, brush</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Refrigerator Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20checking%20refrigerator%20temperature%20controls%20and%20coils%2C%20modern%20kitchen%20setting%2C%20detailed%20maintenance%20work%2C%20clean%20workspace&width=600&height=400&seq=22&orientation=landscape" alt="Refrigerator Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Refrigerator</span>
+<span class="px-3 py-1 difficulty-intermediate rounded-full text-xs font-medium">Intermediate</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Professional Refrigeration Repair</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Compressor diagnosis and replacement</li>
+<li>Refrigerant pressure testing and recharge</li>
+<li>Evaporator fan motor repair</li>
+<li>Defrost system troubleshooting</li>
+<li>Smart control board programming</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">30-40 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Coil brush, vacuum</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Stove Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20cleaning%20and%20inspecting%20modern%20electric%20stove%20top%2C%20detailed%20maintenance%20work%2C%20kitchen%20setting%2C%20safety%20inspection&width=600&height=400&seq=23&orientation=landscape" alt="Stove Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Stove</span>
+<span class="px-3 py-1 difficulty-advanced rounded-full text-xs font-medium">Advanced</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Stove Safety & Maintenance</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean burners and elements</li>
+<li>Test temperature accuracy</li>
+<li>Check gas connections</li>
+<li>Calibrate controls</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">45-60 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Special tools needed</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Microwave Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20inspecting%20microwave%20safety%20features%20and%20controls%2C%20modern%20kitchen%20setting%2C%20detailed%20maintenance%20work%2C%20clean%20workspace&width=600&height=400&seq=24&orientation=landscape" alt="Microwave Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Microwave</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Microwave Safety Guide</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean interior thoroughly</li>
+<li>Check door seals</li>
+<li>Test turntable operation</li>
+<li>Verify safety interlocks</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">10-15 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Cleaning supplies</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Dishwasher Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20cleaning%20and%20maintaining%20modern%20dishwasher%2C%20detailed%20view%20of%20filter%20cleaning%20and%20spray%20arm%20inspection%2C%20clean%20workspace&width=600&height=400&seq=25&orientation=landscape" alt="Dishwasher Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dishwasher</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dishwasher Maintenance</h3>
+<ul class="text-gray-600 mb-4 list-disc pl-5 space-y-2">
+<li>Clean filters and spray arms</li>
+<li>Check water connections</li>
+<li>Inspect drain hose</li>
+<li>Clean door seals</li>
+</ul>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">20-25 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic tools</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Detailed Guide
+</button>
+</a>
+</div>
+</div>
+</div>
+<!-- Dryer Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=technician%20servicing%20clothes%20dryer%2C%20maintenance%20work%20on%20dryer%20vent%2C%20modern%20laundry%20appliance%2C%20professional%20repair%20demonstration%2C%20clean%20workspace&width=600&height=400&seq=12&orientation=landscape" alt="Dryer Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dryer</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dryer Maintenance Tips</h3>
+<p class="text-gray-600 mb-4">Essential maintenance tips to keep your dryer running efficiently and safely.</p>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">15 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">No tools needed</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Refrigerator Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20technician%20checking%20refrigerator%20temperature%20controls%20and%20seals%2C%20modern%20kitchen%20setting%2C%20detailed%20maintenance%20work%2C%20clean%20and%20organized%20workspace&width=600&height=400&seq=13&orientation=landscape" alt="Refrigerator Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Refrigerator</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Refrigerator Care Guide</h3>
+<p class="text-gray-600 mb-4">Simple maintenance steps to keep your refrigerator running efficiently and extend its lifespan.</p>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">10 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic cleaning</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Stove Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=technician%20repairing%20modern%20electric%20stove%20top%2C%20detailed%20view%20of%20maintenance%20work%2C%20kitchen%20appliance%20repair%2C%20professional%20service%20demonstration&width=600&height=400&seq=14&orientation=landscape" alt="Stove Repair" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Stove</span>
+<span class="px-3 py-1 difficulty-intermediate rounded-full text-xs font-medium">Intermediate</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Stove Troubleshooting</h3>
+<p class="text-gray-600 mb-4">Safety checks and basic troubleshooting for common stove and oven issues.</p>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">15-20 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Safety first</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Microwave Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20checking%20microwave%20oven%20safety%20and%20functionality%2C%20modern%20kitchen%20setting%2C%20detailed%20maintenance%20work%2C%20clean%20workspace&width=600&height=400&seq=15&orientation=landscape" alt="Microwave Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Microwave</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Microwave Safety Guide</h3>
+<p class="text-gray-600 mb-4">Essential safety checks and maintenance tips for your microwave oven.</p>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">5-10 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">No tools needed</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</a>
+</div>
+</div>
+<!-- Dishwasher Guide -->
+<div class="bg-white rounded-lg shadow-md overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=technician%20performing%20maintenance%20on%20modern%20dishwasher%2C%20detailed%20view%20of%20cleaning%20filters%20and%20checking%20spray%20arms%2C%20professional%20service%20in%20modern%20kitchen&width=600&height=400&seq=16&orientation=landscape" alt="Dishwasher Maintenance" class="w-full h-48 object-cover object-top">
+<div class="p-6">
+<div class="flex justify-between items-center mb-3">
+<span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Dishwasher</span>
+<span class="px-3 py-1 difficulty-beginner rounded-full text-xs font-medium">Beginner</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Dishwasher Maintenance</h3>
+<p class="text-gray-600 mb-4">Regular maintenance tips to keep your dishwasher clean and running efficiently.</p>
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center">
+<i class="ri-time-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">15 minutes</span>
+</div>
+<div class="flex items-center">
+<i class="ri-tools-line mr-1 text-gray-500"></i>
+<span class="text-sm text-gray-500">Basic cleaning</span>
+</div>
+</div>
+<a href="https://readdy.ai/home/edd32b13-97af-4185-bc4d-ee9916bd2cca/4ae4bc9a-fd98-4f6c-af1b-6bc4e6a3e2f8" data-readdy="true" class="block">
+<button class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+View Guide
+</button>
+</a>
+</div>
+</div>
+</div>
+<!-- Safety Tips Section -->
+<div class="mt-16 mb-12">
+<h3 class="text-2xl font-bold text-center mb-8">Important Safety Guidelines</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Prevention -->
+<div class="bg-blue-50 rounded-lg p-6">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-shield-check-line text-primary text-2xl"></i>
+</div>
+<h4 class="text-lg font-bold mb-3">Prevention First</h4>
+<ul class="text-gray-700 space-y-2">
+<li class="flex items-start">
+<i class="ri-checkbox-circle-line text-primary mt-1 mr-2"></i>
+<span>Regular maintenance prevents major issues</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-line text-primary mt-1 mr-2"></i>
+<span>Follow manufacturer guidelines</span>
+</li>
+<li class="flex items-start">
+<i class="ri-checkbox-circle-line text-primary mt-1 mr-2"></i>
+<span>Keep manuals accessible</span>
+</li>
+</ul>
+</div>
+<!-- When to Call -->
+<div class="bg-yellow-50 rounded-lg p-6">
+<div class="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-phone-line text-yellow-700 text-2xl"></i>
+</div>
+<h4 class="text-lg font-bold mb-3">When to Call a Pro</h4>
+<ul class="text-gray-700 space-y-2">
+<li class="flex items-start">
+<i class="ri-alert-line text-yellow-700 mt-1 mr-2"></i>
+<span>Electrical issues or burning smell</span>
+</li>
+<li class="flex items-start">
+<i class="ri-alert-line text-yellow-700 mt-1 mr-2"></i>
+<span>Gas leaks or unusual odors</span>
+</li>
+<li class="flex items-start">
+<i class="ri-alert-line text-yellow-700 mt-1 mr-2"></i>
+<span>Major water leaks</span>
+</li>
+</ul>
+</div>
+<!-- Safety First -->
+<div class="bg-red-50 rounded-lg p-6">
+<div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center mb-4">
+<i class="ri-error-warning-line text-red-600 text-2xl"></i>
+</div>
+<h4 class="text-lg font-bold mb-3">Safety First</h4>
+<ul class="text-gray-700 space-y-2">
+<li class="flex items-start">
+<i class="ri-close-circle-line text-red-600 mt-1 mr-2"></i>
+<span>Never attempt electrical repairs</span>
+</li>
+<li class="flex items-start">
+<i class="ri-close-circle-line text-red-600 mt-1 mr-2"></i>
+<span>Don't remove safety features</span>
+</li>
+<li class="flex items-start">
+<i class="ri-close-circle-line text-red-600 mt-1 mr-2"></i>
+<span>Avoid DIY gas appliance work</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Disclaimer Box -->
+<div class="mt-12 bg-red-50 border-2 border-red-200 rounded-lg p-6 max-w-4xl mx-auto">
+<div class="flex items-start">
+<div class="w-12 h-12 flex-shrink-0 flex items-center justify-center bg-red-100 rounded-full mr-4">
+<i class="ri-error-warning-line text-red-500 text-xl"></i>
+</div>
+<div>
+<h4 class="text-xl font-bold text-red-700 mb-3">Critical Safety Warning</h4>
+<div class="space-y-3 text-red-700">
+<p>These guides are for basic troubleshooting only. DO NOT attempt repairs if:</p>
+<ul class="list-disc pl-5 space-y-2">
+<li>You smell gas or burning</li>
+<li>There's electrical sparking or exposed wires</li>
+<li>The appliance is under warranty</li>
+<li>You lack proper tools or safety equipment</li>
+<li>You're unsure about any step</li>
+</ul>
+<p class="font-medium mt-4">Improper repairs can lead to:</p>
+<ul class="list-disc pl-5 space-y-2">
+<li>Fire hazards and electrical risks</li>
+<li>Permanent appliance damage</li>
+<li>Voided warranties</li>
+<li>Higher repair costs</li>
+<li>Personal injury</li>
+</ul>
+</div>
+<div class="mt-6 flex flex-col sm:flex-row gap-4">
+<button class="bg-red-600 text-white px-6 py-3 rounded-button font-medium hover:bg-red-700 transition whitespace-nowrap flex items-center justify-center">
+<i class="ri-phone-line mr-2"></i> Emergency Service
+</button>
+<button class="bg-white border-2 border-red-600 text-red-600 px-6 py-3 rounded-button font-medium hover:bg-red-50 transition whitespace-nowrap flex items-center justify-center">
+<i class="ri-team-line mr-2"></i> Find Certified Technician
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold mb-4">Why Choose Us</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">We combine Filipino craftsmanship with Canadian standards to deliver exceptional service every time.</p>
+</div>
+<!-- Benefits Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 stagger-animation">
+<!-- Benefit 1 -->
+<div class="bg-white p-6 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-medal-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Professional Excellence</h3>
+<p class="text-gray-600">Our certified technicians bring exceptional attention to detail and craftsmanship to every job.</p>
+</div>
+<!-- Benefit 2 -->
+<div class="bg-white p-6 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-verified-badge-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">Canadian Certified</h3>
+<p class="text-gray-600">All our technicians are fully certified and licensed to work in Canada, meeting all local regulations.</p>
+</div>
+<!-- Benefit 3 -->
+<div class="bg-white p-6 rounded-lg shadow-md text-center">
+<div class="w-16 h-16 mx-auto flex items-center justify-center bg-blue-100 rounded-full mb-4">
+<i class="ri-24-hours-line text-primary text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-2">24/7 Availability</h3>
+<p class="text-gray-600">Home emergencies don't wait for business hours. Our team is available around the clock for urgent repairs.</p>
+</div>
+</div>
+<!-- Testimonials -->
+<div class="mb-16">
+<h3 class="text-2xl font-bold text-center mb-8">What Our Customers Say</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Testimonial 1 -->
+<div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20middle-aged%20Canadian%20woman%2C%20casual%20business%20attire%2C%20smiling%2C%20natural%20lighting%2C%20neutral%20background&width=100&height=100&seq=8&orientation=squarish" alt="Customer" class="w-12 h-12 rounded-full object-cover object-top mr-4">
+<div>
+<h4 class="font-bold">Emily Robertson</h4>
+<p class="text-sm text-gray-500">Toronto, ON</p>
+</div>
+</div>
+<div class="flex mb-3">
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+</div>
+<p class="text-gray-600">"Wilmer was fantastic! He arrived on time and fixed my dishwasher quickly. He took the time to explain what caused the issue and gave me tips to maintain it properly. His expertise and friendly service were outstanding."</p>
+</div>
+<!-- Testimonial 2 -->
+<div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20young%20Canadian%20man%2C%20casual%20clothing%2C%20smiling%2C%20natural%20lighting%2C%20neutral%20background&width=100&height=100&seq=9&orientation=squarish" alt="Customer" class="w-12 h-12 rounded-full object-cover object-top mr-4">
+<div>
+<h4 class="font-bold">Michael Chen</h4>
+<p class="text-sm text-gray-500">Toronto, ON</p>
+</div>
+</div>
+<div class="flex mb-3">
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+</div>
+<p class="text-gray-600">"My washing machine broke down right before a big family gathering. Wilmer came the same day and got it working perfectly. His knowledge of appliances is impressive, and his rates are very reasonable. Highly recommend his services!"</p>
+</div>
+<!-- Testimonial 3 -->
+<div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+<div class="flex items-center mb-4">
+<img src="https://readdy.ai/api/search-image?query=professional%20headshot%20of%20senior%20Canadian%20woman%2C%20casual%20elegant%20attire%2C%20smiling%2C%20natural%20lighting%2C%20neutral%20background&width=100&height=100&seq=10&orientation=squarish" alt="Customer" class="w-12 h-12 rounded-full object-cover object-top mr-4">
+<div>
+<h4 class="font-bold">Sarah Thompson</h4>
+<p class="text-sm text-gray-500">Toronto, ON</p>
+</div>
+</div>
+<div class="flex mb-3">
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+<i class="ri-star-fill text-blue-500"></i>
+</div>
+<p class="text-gray-600">"Wilmer is a true professional! He fixed our refrigerator that other technicians couldn't figure out. He's punctual, thorough, and very knowledgeable about all types of appliances. His Filipino hospitality and work ethic are outstanding!"</p>
+</div>
+</div>
+</div>
+<!-- Trust Badges -->
+<div class="flex flex-wrap justify-center items-center gap-8 stagger-animation">
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 flex items-center justify-center">
+<i class="ri-verified-badge-fill text-4xl text-gray-400"></i>
+</div>
+<span class="text-sm text-gray-500 mt-2">Licensed & Insured</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 flex items-center justify-center">
+<i class="ri-shield-check-fill text-4xl text-gray-400"></i>
+</div>
+<span class="text-sm text-gray-500 mt-2">Satisfaction Guaranteed</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 flex items-center justify-center">
+<i class="ri-award-fill text-4xl text-gray-400"></i>
+</div>
+<span class="text-sm text-gray-500 mt-2">Top Rated Service</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 flex items-center justify-center">
+<i class="ri-secure-payment-fill text-4xl text-gray-400"></i>
+</div>
+<span class="text-sm text-gray-500 mt-2">Secure Payment</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-16 h-16 flex items-center justify-center">
+<i class="ri-recycle-fill text-4xl text-gray-400"></i>
+</div>
+<span class="text-sm text-gray-500 mt-2">Eco-Friendly Practices</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Have a question or need to schedule a service? Reach out to us through any of these channels.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<!-- Contact Info -->
+<div>
+<div class="bg-white rounded-lg shadow-md p-8">
+<h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+<div class="space-y-6">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-4">
+<i class="ri-phone-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-bold">Phone</h4>
+<p class="text-gray-600">Call Wilmer: <a href="tel:+16475683877" class="text-primary">+1 (647) 568-3877</a></p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-4">
+<i class="ri-mail-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-bold">Email</h4>
+<p class="text-gray-600"><a href="mailto:wprosales123@gmail.com" class="text-primary">wprosales123@gmail.com</a></p>
+<p class="text-gray-600"><a href="mailto:fairappliance@gmail.com" class="text-primary">fairappliance@gmail.com</a></p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-4">
+<i class="ri-map-pin-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-bold">Service Areas</h4>
+<p class="text-gray-600">We proudly serve the entire Greater Toronto Area (GTA) and surrounding regions. <a href="/service-areas" class="text-primary hover:underline">View all service areas</a></p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-4">
+<i class="ri-time-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-bold">Business Hours</h4>
+<p class="text-gray-600">Monday - Friday: 8:00 AM - 8:00 PM</p>
+<p class="text-gray-600">Saturday: 9:00 AM - 5:00 PM</p>
+<p class="text-gray-600">Sunday: 10:00 AM - 4:00 PM</p>
+<p class="text-gray-600 font-medium mt-2">Emergency Service: 24/7</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-blue-100 rounded-full mr-4">
+<i class="ri-chat-1-line text-primary"></i>
+</div>
+<div>
+<h4 class="font-bold">Message Us</h4>
+<div class="flex mt-2 space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200">
+<i class="ri-whatsapp-line text-gray-700"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200">
+<i class="ri-messenger-line text-gray-700"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200">
+<i class="ri-instagram-line text-gray-700"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full hover:bg-gray-200">
+<i class="ri-facebook-line text-gray-700"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Service Areas Section -->
+<div class="mt-8 bg-white rounded-lg shadow-md p-8">
+<h3 class="text-xl font-bold mb-6">Our Service Areas</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- GTA Core -->
+<div>
+<h4 class="text-lg font-semibold mb-3 flex items-center">
+<i class="ri-building-2-line mr-2 text-primary"></i>
+GTA Core
+</h4>
+<ul class="space-y-2 text-gray-600">
+<li>• Toronto</li>
+<li>• North York</li>
+<li>• Scarborough</li>
+<li>• Etobicoke</li>
+<li>• Mississauga</li>
+<li>• Brampton</li>
+</ul>
+</div>
+<!-- North Region -->
+<div>
+<h4 class="text-lg font-semibold mb-3 flex items-center">
+<i class="ri-compass-2-line mr-2 text-primary"></i>
+North Region
+</h4>
+<ul class="space-y-2 text-gray-600">
+<li>• Markham</li>
+<li>• Richmond Hill</li>
+<li>• Vaughan</li>
+<li>• Stouffville</li>
+<li>• Barrie</li>
+</ul>
+</div>
+<!-- East Region -->
+<div>
+<h4 class="text-lg font-semibold mb-3 flex items-center">
+<i class="ri-compass-3-line mr-2 text-primary"></i>
+East Region
+</h4>
+<ul class="space-y-2 text-gray-600">
+<li>• Pickering</li>
+<li>• Ajax</li>
+<li>• Whitby</li>
+<li>• Oshawa</li>
+<li>• Uxbridge</li>
+</ul>
+</div>
+<!-- West Region -->
+<div>
+<h4 class="text-lg font-semibold mb-3 flex items-center">
+<i class="ri-compass-4-line mr-2 text-primary"></i>
+West Region
+</h4>
+<ul class="space-y-2 text-gray-600">
+<li>• Oakville</li>
+<li>• Burlington</li>
+<li>• Hamilton</li>
+<li>• Stoney Creek</li>
+<li>• St. Catharines</li>
+<li>• Niagara Falls</li>
+</ul>
+</div>
+</div>
+<div class="mt-8">
+<div class="h-64 bg-gray-100 rounded-lg overflow-hidden" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png'); background-size: cover; background-position: center;"></div>
+<p class="text-sm text-gray-500 mt-4 text-center">Service coverage map of Greater Toronto Area and surrounding regions</p>
+</div>
+</div>
+</div>
+<!-- Contact Form -->
+<div class="bg-white rounded-lg shadow-md p-8">
+<h3 class="text-2xl font-bold mb-6">Send Us a Message</h3>
+<form>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+<div>
+<label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
+<input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-primary/20" placeholder="Your name">
+</div>
+<div>
+<label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+<input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-primary/20" placeholder="Your email">
+</div>
+</div>
+<div class="mb-6">
+<label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+<input type="tel" id="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-primary/20" placeholder="Your phone number">
+</div>
+<div class="mb-6">
+<label for="service" class="block text-sm font-medium text-gray-700 mb-1">Service Needed</label>
+<div class="relative">
+<select id="service" class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 appearance-none focus:ring-2 focus:ring-primary/20 pr-8">
+<option value="" disabled selected>Select a service</option>
+<option value="appliance">Appliance Repair</option>
+<option value="hvac">HVAC Service</option>
+<option value="plumbing">Plumbing</option>
+<option value="electrical">Electrical</option>
+<option value="other">Other</option>
+</select>
+<div class="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+<i class="ri-arrow-down-s-line text-gray-400"></i>
+</div>
+</div>
+</div>
+<div class="mb-6">
+<label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+<textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg text-gray-700 focus:ring-2 focus:ring-primary/20" placeholder="Describe your issue or inquiry"></textarea>
+</div>
+<div class="mb-6">
+<label class="flex items-start">
+<input type="checkbox" class="mt-1 mr-2">
+<span class="text-sm text-gray-600">I agree to the <a href="#" class="text-primary">Terms of Service</a> and <a href="#" class="text-primary">Privacy Policy</a></span>
+</label>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-3 rounded-button font-medium hover:bg-blue-600 transition whitespace-nowrap">
+Send Message
+</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-900 text-white pt-16 pb-8">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Company Info -->
+<div>
+<a href="https://filipinoapplianceandrepair.ca" class="flex items-center hover:opacity-80 transition-opacity mb-4">
+<img src="https://static.readdy.ai/image/6dad75bb84c6b196f766bf53c2682b9d/02fc441fb48373ab3c0857966bef10be.png" alt="FAIR Logo" class="h-16 object-contain">
+</a>
+<p class="text-gray-400 mb-6">Professional installation and repair services with exceptional quality standards and reliability.</p>
+<div class="flex space-x-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<i class="ri-instagram-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<i class="ri-twitter-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-800 rounded-full hover:bg-primary transition">
+<i class="ri-youtube-fill"></i>
+</a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h4 class="text-lg font-bold mb-4">Quick Links</h4>
+<ul class="space-y-3">
+<li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+<li><a href="/install" class="text-gray-400 hover:text-white transition">Installation</a></li>
+<li><a href="/repair" class="text-gray-400 hover:text-white transition">Repair</a></li>
+<li><a href="/diy-guides" class="text-gray-400 hover:text-white transition">DIY Guides</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+<li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+</ul>
+</div>
+<!-- Services -->
+<div>
+<h4 class="text-lg font-bold mb-4">Our Services</h4>
+<ul class="space-y-3">
+<li><a href="#" class="text-gray-400 hover:text-white transition">Appliance Repair</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">HVAC Services</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Plumbing Solutions</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Electrical Work</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Home Renovations</a></li>
+<li><a href="#" class="text-gray-400 hover:text-white transition">Emergency Services</a></li>
+</ul>
+</div>
+<!-- Newsletter -->
+<div>
+<h4 class="text-lg font-bold mb-4">Subscribe to Our Newsletter</h4>
+<p class="text-gray-400 mb-4">Get maintenance tips, seasonal offers, and DIY guides delivered to your inbox.</p>
+<form class="mb-4">
+<div class="flex">
+<input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l-lg border-none text-gray-800">
+<button type="submit" class="bg-primary text-white px-4 py-3 rounded-r-lg hover:bg-blue-600 transition whitespace-nowrap">
+Subscribe
+</button>
+</div>
+</form>
+<div class="flex items-center space-x-4">
+<span class="text-gray-400">We accept:</span>
+<div class="flex space-x-2">
+<i class="ri-visa-fill text-2xl text-gray-400"></i>
+<i class="ri-mastercard-fill text-2xl text-gray-400"></i>
+<i class="ri-paypal-fill text-2xl text-gray-400"></i>
+</div>
+</div>
+</div>
+</div>
+<hr class="border-gray-800 mb-8">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">&copy; 2025 Filipino Appliance Installation & Repair Services | filipinoapplianceandrepair.ca. All rights reserved.</p>
+<div class="flex space-x-6">
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Privacy Policy</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Terms of Service</a>
+<a href="#" class="text-gray-400 hover:text-white text-sm transition">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const animateOnScroll = () => {
+const elements = document.querySelectorAll('.service-card, .fade-in-up, .scale-in, .slide-in-right');
+elements.forEach((element, index) => {
+const elementTop = element.getBoundingClientRect().top;
+const elementBottom = element.getBoundingClientRect().bottom;
+const isVisible = elementTop < window.innerHeight - 50 && elementBottom >= 0;
+if (isVisible) {
+element.style.opacity = '1';
+element.style.transform = 'translateY(0)';
+if (element.classList.contains('stagger-animation')) {
+Array.from(element.children).forEach((child, i) => {
+setTimeout(() => {
+child.style.opacity = '1';
+child.style.animation = 'fadeInUp 0.5s ease-out forwards';
+}, i * 100);
+});
+}
+}
+});
+};
+const setupAnimations = () => {
+document.querySelectorAll('.service-card').forEach((card, index) => {
+setTimeout(() => {
+card.classList.add('visible');
+}, index * 100);
+});
+document.querySelectorAll('.stagger-animation > *').forEach((element, index) => {
+setTimeout(() => {
+element.style.animation = 'fadeInUp 0.5s ease-out forwards';
+}, index * 100);
+});
+};
+window.addEventListener('scroll', animateOnScroll);
+animateOnScroll();
+// Mobile menu toggle
+const menuButton = document.querySelector('button.md\\:hidden');
+if (menuButton) {
+menuButton.addEventListener('click', function() {
+// Mobile menu functionality would go here
+alert('Mobile menu clicked');
+});
+}
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Custom checkbox styling
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+checkboxes.forEach(checkbox => {
+const wrapper = document.createElement('div');
+wrapper.className = 'custom-checkbox';
+wrapper.innerHTML = `
+<div class="w-5 h-5 border-2 border-gray-300 rounded flex items-center justify-center ${checkbox.checked ? 'bg-primary border-primary' : ''}">
+${checkbox.checked ? '<i class="ri-check-line text-white text-xs"></i>' : ''}
+</div>
+`;
+checkbox.style.display = 'none';
+checkbox.parentNode.insertBefore(wrapper, checkbox);
+wrapper.addEventListener('click', () => {
+checkbox.checked = !checkbox.checked;
+if (checkbox.checked) {
+wrapper.querySelector('div').classList.add('bg-primary', 'border-primary');
+wrapper.querySelector('div').innerHTML = '<i class="ri-check-line text-white text-xs"></i>';
+} else {
+wrapper.querySelector('div').classList.remove('bg-primary', 'border-primary');
+wrapper.querySelector('div').innerHTML = '';
+}
+});
+});
+});
+</script>
+</body>
+</html>
